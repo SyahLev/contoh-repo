@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Login & Register Page</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form action="">
+                <h1>Buat Akun</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class="bx bxl-google"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-github"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-linkedin"></i></a>
+                </div>
+                <span>Daftar menggunakan Email</span>
+                <input type="text" placeholder="Nama">
+                <input type="email" placeholder="Masukkan Email">
+                <input type="password" placeholder="Masukkan Password">
+                <button>Daftar</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form action="">
+                <h1>Masuk</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class="bx bxl-google"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-github"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-linkedin"></i></a>
+                </div>
+                <span>Masuk menggunakan Email & Password</span>
+                <input type="email" placeholder="Masukkan Email">
+                <input type="password" placeholder="Masukkan Sandi">
+                <a href="#">Lupa Sandi?</a>
+                <button>Masuk</button>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Selamat Datang Di <br>NesaCourt</h1>
+                    <p>Masuk Menggunakan ID dan Sandi</p>
+                    <button class="hidden" id="login">Masuk</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hii Nesa!!</h1>
+                    <p>Masuk Menggunakan Kode dan Sandi</p>
+                    <button class="hidden" id="register">Daftar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+    
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
